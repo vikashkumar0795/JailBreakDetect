@@ -1,0 +1,22 @@
+{
+  "name": "JailBreakDetect",
+  "version": "0.1.0",
+  "summary": "A short description of JailBreakDetect.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vikash Kumar/JailBreakDetect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vikash Kumar": "vikash.kumar@adglobal360.com"
+  },
+  "source": {
+    "git": "https://github.com/Vikash Kumar/JailBreakDetect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JailBreakDetect/Classes/**/*"
+}

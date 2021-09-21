@@ -1,0 +1,6 @@
+framework module JailBreakDetect {
+  umbrella header "JailBreakDetect-umbrella.h"
+
+  export *
+  module * { export * }
+}
