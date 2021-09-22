@@ -11,8 +11,9 @@
 		1EBCE34C3106BB5D8D145C2101CD080B /* Pods-JailBreakDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A11A41BCE9556978AB806F6126FE4E /* Pods-JailBreakDetect_Example-dummy.m */; };
 		267A4AA2F72190993CC479523FFB042E /* JailBreakDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1220BC3037819F8EA52F7560D53CD5D3 /* JailBreakDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51BCFED948FD6EA4D0F4A6B13E948108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		565953B926FB43010055EAC5 /* JailBreakDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565953B726FB43010055EAC5 /* JailBreakDetection.swift */; };
+		565953BA26FB43010055EAC5 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565953B826FB43010055EAC5 /* NewFile.swift */; };
 		5E6CA38FC64E8CECB1A92AEB89B5A6D0 /* Pods-JailBreakDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCBDD18BBB89F68B05CD574589F5185 /* Pods-JailBreakDetect_Tests-dummy.m */; };
-		88A88E5F3BB8BBAFBD40DF7CE5877461 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D8C78E0DBC9BEA418438B73381C12 /* ReplaceMe.swift */; };
 		A01574F12B27644BE7DCF17C20272AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A6657CE405B994518EC21C98020BD21D /* Pods-JailBreakDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB351A4481DD658B0330F5E3ED7A415B /* Pods-JailBreakDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5A12A71D2AE8110B03FD421C904B103 /* JailBreakDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4527542A05CF6DA77BAC2A820DF5493C /* JailBreakDetect-dummy.m */; };
@@ -39,26 +40,28 @@
 /* Begin PBXFileReference section */
 		032439EE3484C95128C31C489D1772D6 /* Pods-JailBreakDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JailBreakDetect_Tests.modulemap"; sourceTree = "<group>"; };
 		0362BD67CB95A6506B586FF2776FE4D0 /* JailBreakDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JailBreakDetect.release.xcconfig; sourceTree = "<group>"; };
-		04C6CF0CDF2318DC4CB406AB70512842 /* Pods_JailBreakDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JailBreakDetect_Example.framework; path = "Pods-JailBreakDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C6CF0CDF2318DC4CB406AB70512842 /* Pods_JailBreakDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JailBreakDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1220BC3037819F8EA52F7560D53CD5D3 /* JailBreakDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JailBreakDetect-umbrella.h"; sourceTree = "<group>"; };
 		1237B9BA85FFBA07C3FF613B97346D0F /* JailBreakDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JailBreakDetect-prefix.pch"; sourceTree = "<group>"; };
 		18C032B5F2FAF3B61332DEE342EF9D59 /* Pods-JailBreakDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JailBreakDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C5AAEEDF7CF041B71697831790EF0AB /* JailBreakDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JailBreakDetect-Info.plist"; sourceTree = "<group>"; };
 		35AA3F458587C87D63F98F22A4939A73 /* Pods-JailBreakDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4527542A05CF6DA77BAC2A820DF5493C /* JailBreakDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JailBreakDetect-dummy.m"; sourceTree = "<group>"; };
-		45775AA9CF19474D3D84112D1C74716F /* JailBreakDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JailBreakDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45775AA9CF19474D3D84112D1C74716F /* JailBreakDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JailBreakDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		460573E4FBF98C86C7216E397E3EC4A9 /* Pods-JailBreakDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C5685C673730F7068943F409AB975BF /* Pods-JailBreakDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		509534E01525417339E05536BECCF257 /* Pods-JailBreakDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		565953B726FB43010055EAC5 /* JailBreakDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JailBreakDetection.swift; path = JailBreakDetect/Classes/JailBreakDetection.swift; sourceTree = "<group>"; };
+		565953B826FB43010055EAC5 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewFile.swift; path = JailBreakDetect/Classes/NewFile.swift; sourceTree = "<group>"; };
 		66A11A41BCE9556978AB806F6126FE4E /* Pods-JailBreakDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JailBreakDetect_Example-dummy.m"; sourceTree = "<group>"; };
-		6A47C54E335C428417C0F41045F74F82 /* Pods_JailBreakDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JailBreakDetect_Tests.framework; path = "Pods-JailBreakDetect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A47C54E335C428417C0F41045F74F82 /* Pods_JailBreakDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JailBreakDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79D53418B6F0320C6FE2D600ED75682B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		79D53418B6F0320C6FE2D600ED75682B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E79C3B83525FC8447B29DFE09DCB855 /* Pods-JailBreakDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JailBreakDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93E1D880AEFCA200E9FBA9AF15A8F6DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93E1D880AEFCA200E9FBA9AF15A8F6DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		94D39C4A1506DC9652941B3880305A78 /* Pods-JailBreakDetect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetect_Tests-Info.plist"; sourceTree = "<group>"; };
-		9B1475E3406D100E99F89542BCCBFC70 /* JailBreakDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JailBreakDetect.framework; path = JailBreakDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1475E3406D100E99F89542BCCBFC70 /* JailBreakDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JailBreakDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3103EFA996ADBA7805E82EB80F311D2 /* Pods-JailBreakDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B830A2DD144437CD300E4E0C7201A22C /* Pods-JailBreakDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB04E4AC56092DEE9443FD144C7BB482 /* Pods-JailBreakDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JailBreakDetect_Example.modulemap"; sourceTree = "<group>"; };
@@ -68,7 +71,6 @@
 		DA18C9E7321DE2215CD682D0D5CFA23E /* Pods-JailBreakDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JailBreakDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DDCBDD18BBB89F68B05CD574589F5185 /* Pods-JailBreakDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JailBreakDetect_Tests-dummy.m"; sourceTree = "<group>"; };
 		DEAF06ABF685B7901A30162420226038 /* JailBreakDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JailBreakDetect.debug.xcconfig; sourceTree = "<group>"; };
-		EA1D8C78E0DBC9BEA418438B73381C12 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JailBreakDetect/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FBB3B0A5FCDEAD07D9479353B000B6A9 /* Pods-JailBreakDetect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetect_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +130,8 @@
 		45F804F31503C2C6BDB97D6A44E6330F /* JailBreakDetect */ = {
 			isa = PBXGroup;
 			children = (
-				EA1D8C78E0DBC9BEA418438B73381C12 /* ReplaceMe.swift */,
+				565953B726FB43010055EAC5 /* JailBreakDetection.swift */,
+				565953B826FB43010055EAC5 /* NewFile.swift */,
 				30ED3FA48E379B92FFA0AE866F13D2F8 /* Pod */,
 				1651E6D320357ED4B4B1BBFFCA8D9B4F /* Support Files */,
 			);
@@ -368,7 +371,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A12A71D2AE8110B03FD421C904B103 /* JailBreakDetect-dummy.m in Sources */,
-				88A88E5F3BB8BBAFBD40DF7CE5877461 /* ReplaceMe.swift in Sources */,
+				565953BA26FB43010055EAC5 /* NewFile.swift in Sources */,
+				565953B926FB43010055EAC5 /* JailBreakDetection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +689,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
